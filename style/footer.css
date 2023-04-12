@@ -1,0 +1,30 @@
+:root{
+    --main-white-color:#ffff;
+    --golobal-main-pink: #e56861;
+    --global-black: #0000;
+  }
+footer{
+    background-image: url(footer-top-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fa-location-arrow:before , .fa-paper-plane:before , .fa-camera:before{
+    color: var(--golobal-main-pink);
+}
+.title-footer{
+    line-height: 30px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.imggallery a img{
+    border-radius: 2px;
+    display: inline-block;
+    width: 30%;
+    margin: 2px 2px 2px 2px;
+}
+.copyright{
+    padding: 15px 0 15px 0;
+}
+@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 425px){}

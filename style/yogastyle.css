@@ -1,0 +1,546 @@
+:root{
+    --main-white-color:#ffff;
+  --golobal-main-pink: #e56861;
+  --global-black: #0000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    /* background-color: ; */
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* .headers{
+    background-color: black;
+    transition: 0.3s;
+} */
+/* @font-face {
+    font-family: fontawsome;
+    src: url(fontawesome-webfont.woff);
+} */
+/* #header{
+    background-color: bisque;
+} */
+#Holeheader{
+    position: fixed;
+    z-index: 20;
+    transition: 0.3s;
+}
+.menu-item li{
+    display: inline-block;
+    /* padding-top: 20px; */
+}
+.menu-item li a{
+    color: var(--main-white-color);
+    transition: 0.3s;
+}
+.menu-item li a:hover{
+    color: lightslategray;
+    transition: 0.3s;
+}
+.social {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+.social li{
+    color: var(--main-white-color);
+}
+.splide__slide{
+    height: 1000px;
+}
+/* .ttbackground{
+    background-image: url("slide-01-min.jpg");
+    height: 100vh;
+    background-position:left ;
+} */
+/* .tt{
+    position: absolute;
+    right: 30%;
+    top: 60%;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 2;
+} */
+.sectionimg img{
+    height: auto;
+    max-width: 100%;
+}
+.title6{
+    color: var(--golobal-main-pink);
+}
+.iconsec{
+    padding: 50px 0;
+}
+.iconp{
+    margin: 0!important;
+    padding: 10px 0 0 10px;
+}
+.sectioncard{
+    background-image: url(banner-img1-min.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+/* -----------card------------ */
+.title-flip h2{
+    color: var(--main-white-color);
+    font-size: 54px;
+    line-height: 60px;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+   1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+.flip-card{
+    background-color: transparent;
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+    perspective: 1000px;
+}
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.front-title{
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    color: var(--main-white-color);
+    text-transform: uppercase;
+}
+.front-title h3{
+    transform: translateZ(100px);
+    transform-style:preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-front img{
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+  }
+  .flip-card-back {
+    background-color: var(--golobal-main-pink);
+    color: var(--main-white-color);
+    transform: rotateY(180deg);
+    border-radius: 5px;
+  }
+  .back-flip-text{
+    width: 250px;
+    height: 250px;
+    padding: 20px 10px;
+    transition: 0.3s;
+    border: 1px solid var(--main-white-color);
+    margin: auto;
+    vertical-align: middle;
+  }
+  /* .back-flip-text :hover{
+    border: 1px solid var(--main-white-color);
+    transition: 0.3s;
+  } */
+  /* -----------card------------ */
+  .titleh3{
+    line-height: 50px;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  .img-f img{
+    border-radius: 100%;
+    width: 260px;
+  }
+  .divimg img{
+    width: 100%;
+  }
+  .widget-item{
+    padding: 30px 40px;
+  }
+  .widget-item:not(:last-child){
+    border-bottom: 1px solid lightgrey;
+  }
+  .widget-item p{
+    line-height: 2em;
+    color: gray;
+  }
+  /* ---------------section carousel------------- */
+  .carosel-section{
+    background-image: url(banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+  .titlediv-center{
+    /* padding: 60px 20px; */
+    margin: 0 auto;
+    /* border-style: solid;
+    border-width: 0px 0px 2px 0px; */
+    /* border-color: var(--golobal-main-pink); */
+    width: fit-content;
+    letter-spacing: 2px;
+    border-width: 0px 0px 2px 0px;
+    border-color: var(--golobal-main-pink);
+    border-style: solid;
+  }
+  .titlediv-center h6{
+    /* text-decoration: underline 1px; */
+    font-size: 20px;
+  }
+  .titlediv-center h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+ .cardi{
+    width: 300px;
+  }
+  .cardi-text{
+    background-color: var(--main-white-color);
+    width: 100%;
+    padding: 40px 45px 40px 50px !important;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 15px #afafaf,
+    -10px -10px 15px #ffffff;
+  }
+  .arrow{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid var(--main-white-color);
+  }
+  .cardi-text p{
+    line-height: 2em;
+  }
+  .cardi-img{
+    width: 90px;
+  }
+  .cardi-img img{
+    width: 70px !important;
+    border-radius: 100px;
+  }
+  .cardi-info-data h4{
+    color: var(--golobal-main-pink);
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+   /* ---------------section jumbotron------------- */
+   .jumbotron{
+    background-image: url(banner-bg-1-min.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   }
+   .jumbotron-text{
+    width: 50%;
+    padding-top: 20%;
+    margin: auto auto;
+   }
+   .jumbotron-text p{
+    color: var(--main-white-color);
+    font-size: 40px;
+   }
+   .jumbotron-text h4{
+    color: lightgray;
+    font-size: 30px;
+   }
+   .jumbotron-text .btn{
+    background-color: var(--golobal-main-pink);
+    color: var(--main-white-color);
+    padding: 10px;
+   }
+   .overlay{
+    background-color: #201F25;
+    opacity: 0.7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   }
+     /* ---------------section cardTeam------------- */
+     .card{
+        background-color: transparent !important;
+        border: none !important;
+     }
+     .cart-img{
+        width: 180px ;
+        height: 180px ;
+        margin: auto;
+        transition: 0.3s;
+        border-radius: 100%;
+     }
+     .cart-img:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+        box-shadow: 10px 10px 15px #afafaf,
+    -10px -10px 15px #ffffff;
+     }
+     .card-subtitle{
+        line-height: 1.5em;
+        margin-bottom: 20px !important;
+     }
+     .social-card li{
+        padding: 5px;
+        color: black;
+     }
+     .social-card li:hover{
+        color: var(--golobal-main-pink);
+     }
+      /* ---------------Price section------------- */
+    .price-section{
+        background-color: whitesmoke;
+    }
+    .card-price{
+        width: auto;
+        height: auto;
+        padding: 40px 25px;
+        background-color: var(--main-white-color);
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    .card-price:hover{
+        box-shadow: 5px 5px 10px #afafaf,
+        -5px -5px 10px #ffffff;
+    }
+    .card-price-content{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .price-title{
+        letter-spacing: 2px;
+        color: var(--golobal-main-pink);
+    }
+    .price-number{
+        font-size: 40px;
+    }
+    .month-price{
+        line-height: 10px;
+    }
+    .price-item{
+        padding-top: 10px;
+    }
+    .price-item:not(:last-child) {
+        border-bottom: 1px solid lightgray;
+        display: block;
+    }
+    /* ---------------RIBBON------------- */
+    #card-price-off{
+        overflow: hidden;
+        position: relative;
+    }
+    .ribbon{
+        width: 200%;
+        font-size: 12px;
+        color: var(--main-white-color);
+        text-align: center;
+        background-color: #83b457;
+        position: absolute;
+        top: 3%;
+        right: -88%;
+       transform: rotate(42deg);
+    }
+    .ribbon p{
+        transform: translateY(50%);
+    }
+@media only screen and (max-width: 425px)  {
+    .splide__slide img{
+        position: absolute;
+        left: -321px;
+        object-fit: cover;
+    } 
+    .textsection{
+        text-align: center;
+    }
+    .iconit{
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .iconit img{
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+    .iconit p{
+        align-self: center;
+    }
+    .flip-card{
+        margin: auto;
+    }
+    .titleh3,#buttonp,#txtcenter{
+        text-align: center;
+    }
+    .titlediv-center{
+        margin: 0 0;
+    }
+    .jumbotron-text {
+        width: 100%;
+        padding-top: 20%;
+        margin: auto auto;
+    }
+    .cardi{
+        width: auto;
+    }
+    .cardi-text{
+        padding: 20px 25px 20px 20px !important
+    }
+    .cardi-info-data h4{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .burgermenu{
+        width: 40px;
+        height: 30px;
+        position: relative;
+    }
+    .burgermenu span{
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background-color: var(--main-white-color);
+        display: block;
+        margin-bottom: 8px;
+    }
+    .menu-item{
+        background-color: var(--main-white-color);
+        width: 100%;
+        transition: 0.3s;
+        display: none;
+    }
+    .menu-item-show{
+        display: block;
+        transition: 0.3s;
+    }
+    .menu-item li{
+        display: block;
+    }
+    .menu-item li a{
+        color: black;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+    }
+    .nav-item{
+        padding: 0 !important;
+    }
+    .span1{
+        transform: rotate(0deg);
+        transition: 0.3s;
+    }
+    .span2{
+        transform: translate(0px);
+        transition: 0.3s;
+    }
+    .span3{
+        transform: rotate(0deg);
+        transition: 0.3s;
+    }
+    .social{
+        display: none;
+    }
+    .span1-1{
+        transform: rotate(-45deg);
+        transition: 0.3s;
+        position: absolute;
+        bottom:0;
+    }
+    .span2-2{
+        transform: translate(55px);
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s;
+    }
+    .span3-3{
+        transform: rotate(45deg);
+        transition: 0.3s;
+        position: absolute;
+        bottom: 0;
+    }
+    .iconp{
+        font-size: 12px;
+    }
+    /* -----------card------------ */
+    .flip-card{
+        background-color: transparent;
+        height: 350px;
+        width: 250px;
+        border-radius: 5px;
+        perspective: 1000px;
+    }
+    .flip-card-front img{
+        height: 350px;
+        width: 250px;
+        border-radius: 5px;
+    }
+    .back-flip-text{
+        width: 220px;
+        height: 220px;
+        padding: 20px 10px;
+        transition: 0.3s;
+        border: 1px solid var(--main-white-color);
+        margin: auto;
+        vertical-align: middle;
+    }
+    .back-flip-text h4{
+        font-size: 18px;
+    }
+    .front-title{
+        position: absolute;
+        bottom: 20px;
+        left: 15%;
+        color: var(--main-white-color);
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    /* -----------card------------ */
+    .titleh3{
+        line-height: 40px;
+        font-size: 30px;
+        letter-spacing: 2px;
+      }
+      .img-f img{
+        border-radius: 100%;
+        width: 200px;
+      }
+      .carosel-section{
+        background-image: url(banner-bg.jpg);
+        background-repeat: repeat-y;
+        background-position: bottom;
+      }
+      .price-list .price-item p{
+        font-size: 15px;
+      }
+      .ribbon {
+        width: 100%;
+        font-size: 12px;
+        color: var(--main-white-color);
+        text-align: center;
+        background-color: #83b457;
+        position: absolute;
+        top: 4%;
+        right: -30%;
+        transform: rotate(42deg);
+    }
+}
