@@ -58,7 +58,7 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide ">
-                            <img src="pic/slide-01-min.jpg" alt="">
+                            <img src="wp-content/themes/yogger.themezaa.com/assets/images/slide-01-min.jpg" alt="">
                             <!-- <div class="ttbackground">
                                 <div class="tt">
                                     <p class="tttext">
@@ -67,8 +67,8 @@
                                 </div>
                             </div> -->
                         </li>
-                        <li class="splide__slide"><img src="pic/slide-03-min.jpg" alt=""></li>
-                        <li class="splide__slide"><img src="pic/slide-04-min.jpg" alt=""></li>
+                        <li class="splide__slide"><img src="wp-content/themes/yogger.themezaa.com/assets/images/slide-03-min.jpg" alt=""></li>
+                        <li class="splide__slide"><img src="wp-content/themes/yogger.themezaa.com/assets/images/slide-04-min.jpg" alt=""></li>
                     </ul>
                 </div>
             </div>
