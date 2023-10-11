@@ -1,11 +1,14 @@
 <?php
     function yoga_theme_support(){
         add_theme_support('title_tag');//dynamice title
+        add_theme_support('custom_logo');//daynamice logo
+        add_theme_support('post-thumbnails'); //call post featur image
     }
     add_action('after_setup_theme' , 'yoga_theme_support');
     
     function yoga_register_style(){
-        wp_enqueue_style('yogatheme-style', get_template_directory_uri() . '/style.css', array("yogatheme-bootstrap"), '1.0' , 'all');
+        $version = wp_get_theme()->get("version");
+        wp_enqueue_style('yogatheme-style', get_template_directory_uri() . '/style.css', array("yogatheme-bootstrap"), $version , 'all');
         wp_enqueue_style('yogatheme-bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.rtl.min.css' ,  array() , '5.0', 'all');
         wp_enqueue_style('yogatheme-owl', get_template_directory_uri() . '/assets/css/splide.min.css', array() , '1.0', 'all');
         wp_enqueue_style('yogatheme-animate', get_template_directory_uri() . '/assets/css/animate.min.css', array() ,'1.0', 'all');

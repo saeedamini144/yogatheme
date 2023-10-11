@@ -28,12 +28,12 @@
                         <li class="fa fa-camera ps-3"></li><span>PHOTO GALLERY</span>
                     </ul>
                     <div class="imggallery">
-                        <a href="images/gallery1.jpg" data-lightbox="img-gallery2"><img src="images/gallery1.jpg" alt="gallery1"></a>
-                        <a href="images/gallery2.jpg" data-lightbox="img-gallery3"><img src="images/gallery2.jpg" alt="gallery2"></a>
-                        <a href="images/gallery3.jpg" data-lightbox="img-gallery4"><img src="images/gallery3.jpg" alt="gallery3"></a>
-                        <a href="images/gallery5.jpg" data-lightbox="img-gallery1"><img src="images/gallery5.jpg" alt="gallery5"></a>
-                        <a href="images/gallery6.jpg" data-lightbox="img-gallery5"><img src="images/gallery6.jpg" alt="gallery5"></a>
-                        <a href="images/gallery7.jpg" data-lightbox="img-gallery6"><img src="images/gallery7.jpg" alt="gallery7"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery1.jpg" data-lightbox="img-gallery2"><img src="images/gallery1.jpg" alt="gallery1"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery2.jpg" data-lightbox="img-gallery3"><img src="images/gallery2.jpg" alt="gallery2"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery3.jpg" data-lightbox="img-gallery4"><img src="images/gallery3.jpg" alt="gallery3"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery5.jpg" data-lightbox="img-gallery1"><img src="images/gallery5.jpg" alt="gallery5"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery6.jpg" data-lightbox="img-gallery5"><img src="images/gallery6.jpg" alt="gallery5"></a>
+                        <a href="wp-content/themes/yogger.themezaa.com/assets/images/gallery7.jpg" data-lightbox="img-gallery6"><img src="images/gallery7.jpg" alt="gallery7"></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="pic/logo-black.png.webp" alt="">
+                        <img src="wp-content/themes/yogger.themezaa.com/assets/images/logo-black.png.webp" alt="">
                     </div>
                     <div class="col-md-6">
                         <p class="text-muted">© 2020 Yogger is proudly powered by ThemeZaa</p>
