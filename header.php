@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="style/splide-skyblue.min.css">
     <link rel="stylesheet" href="style/owl.carousel.min.css">
     <link rel="stylesheet" href="style/lightbox.min.css">
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel="icon" type="image/x-icon" href="pic/cropped-favicon-180x180.png"> -->
+    <link rel="stylesheet" href="style/footer.css">-->
+    <link rel="icon" type="image/x-icon" href="pic/cropped-favicon-180x180.png"> 
     <title><?php get_the_title(); ?></title>
     <?php
         wp_head();

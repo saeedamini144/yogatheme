@@ -19,14 +19,14 @@
 
     function yoga_register_scripts(){
         wp_enqueue_script('jquery');
-        wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/js/js-yoga.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-bootstrap-bundle' , get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-bootstrap-esm' , get_template_directory_uri() . '/assets/js/bootstrap.esm.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-bootstrap-min' , get_template_directory_uri() . '/assets/js/bootstrap.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-lightbox' , get_template_directory_uri() . '/assets/js/lightbox.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-owl' , get_template_directory_uri() . '/assets/js/owl.carousel.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-splide' , get_template_directory_uri() . '/assets/js/splide.min.js' . array('jquery') , '1.0' , 'true');
-        wp_enqueue_script('yogatheme-wow' , get_template_directory_uri() . '/assets/js/wow.min.js' . array('jquery') , '1.0' , 'true');
+        wp_enqueue_script('yogatheme-splide' , get_template_directory_uri() . '/assets/javascripts/splide.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-bootstrapmin' , get_template_directory_uri() . '/assets/javascripts/bootstrap.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-bootstrapbundle' , get_template_directory_uri() . '/assets/javascripts/bootstrap.bundle.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-bootstrapesm' , get_template_directory_uri() . '/assets/javascripts/bootstrap.esm.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-lightbox' , get_template_directory_uri() . '/assets/javascripts/lightbox.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-owl' , get_template_directory_uri() . '/assets/javascripts/owl.carousel.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-wow' , get_template_directory_uri() . '/assets/javascripts/wow.min.js' . array('jquery') , '1.0');
+        wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/js-yoga.js' . array('') , '1.0');
     }
-    add_action('wp_enqueue_scripts' , 'yoga_register_scripts')
+    add_action('wp_enqueue_scripts' , 'yoga_register_scripts');
 ?>

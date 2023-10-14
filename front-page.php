@@ -238,7 +238,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="pic/team1.png" class="cart-img" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/team1.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">LAURA CHARETTE</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -252,7 +252,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="pic/team2.png" class="cart-img" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/team2.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">VETTE LONGORIA</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -266,7 +266,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="pic/team3.png" class="cart-img" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/team3.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">JESSICA DOVER</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="pic/team4.png" class="cart-img" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/team4.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">MICHAL RUHEEN</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
