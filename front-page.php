@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-6">
                 <div class="sectionimg">
-                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/maker.jpg" alt="">
+                    <img src="wp-content/themes/yogatheme/assets/images/maker.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -25,25 +25,25 @@
         <div class="row iconsec">
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/balance.PNG" alt="">
+                    <img src="wp-content/themes/yogatheme/assets/images/balance.PNG" alt="">
                     <p class="iconp">BALANCE LIFE</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/strech.PNG" alt="">
+                    <img src="wp-content/themes/yogatheme/assets/images/strech.PNG" alt="">
                     <p class="iconp">STRETCH MIND</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/reduse.png" alt="">
+                    <img src="wp-content/themes/yogatheme/assets/images/reduse.png" alt="">
                     <p class="iconp">REDUCE STRESS</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/meditation.PNG" alt="">
+                    <img src="wp-content/themes/yogatheme/assets/images/meditation.PNG" alt="">
                     <p class="iconp">MEDITATIONS</p>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogger.themezaa.com/assets/images/flip-img1-min.jpg" alt="">
+                            <img src="wp-content/themes/yogatheme/assets/images/flip-img1-min.jpg" alt="">
                             <h3 class="front-title">meditaion yoga</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -76,7 +76,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogger.themezaa.com/assets/images/flip-img2-min.jpg" alt="">
+                            <img src="wp-content/themes/yogatheme/assets/images/flip-img2-min.jpg" alt="">
                             <h3 class="front-title">Stretching yoga</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -93,7 +93,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogger.themezaa.com/assets/images/flip-img3-1-min.jpg" alt="">
+                            <img src="wp-content/themes/yogatheme/assets/images/flip-img3-1-min.jpg" alt="">
                             <h3 class="front-title">body balance</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -114,7 +114,7 @@
             <div class="row align-items-center">
                 <div class="col-md-4 col-lg-4">
                     <div class="img-f">
-                        <img src="wp-content/themes/yogger.themezaa.com/assets/images/nilu-flower.jpg" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/nilu-flower.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
@@ -136,7 +136,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="divimg">
-                        <img src="wp-content/themes/yogger.themezaa.com/assets/images/banner-video.jpg" alt="">
+                        <img src="wp-content/themes/yogatheme/assets/images/banner-video.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -174,7 +174,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/testimoni-pic1.jpg" alt="">
+                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic1.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Jay Benjamin</h4>
@@ -191,7 +191,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/testimoni-pic2.jpg" alt="">
+                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic2.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Jason Bourne</h4>
@@ -208,7 +208,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogger.themezaa.com/assets/images/testimoni-pic3.jpg" alt="">
+                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic3.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Janet Scalf</h4>
