@@ -1,7 +1,7 @@
 <?php
     function yoga_theme_support(){
-        add_theme_support('title_tag');//dynamice title
-        add_theme_support('custom_logo');//daynamice logo
+        add_theme_support('title-tag');//dynamice title
+        add_theme_support( 'custom-logo' );//daynamice logo
         add_theme_support('post-thumbnails'); //call post featur image
     }
     add_action('after_setup_theme' , 'yoga_theme_support');

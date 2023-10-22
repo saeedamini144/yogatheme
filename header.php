@@ -25,14 +25,14 @@
             <div class="navbar container-fluid" id="Holeheader">
                 <div class="navbar-brand">
                 <?php
-                if(function_exists('the_custom_logo')){
+                    if(function_exists('the_custom_logo')){
                     // the_custom_logo( ); add dynamic logo
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
                     $logo = wp_get_attachment_image_src( $custom_logo_id );
                     // print_r($logo);
-              }  
-            ?>
-                    <a href="#"><img src=" echo $logo[0]" id="logomenu" alt=""></a>
+                    }
+                ?>      
+                    <a href="#"><img src="<?php echo $logo[0] ?>" id="logomenu" alt=""></a>
                 </div>
                 <div class="burgermenu d-lg-none" id="burger">
                     <span class="span1" id="span-1"></span>
