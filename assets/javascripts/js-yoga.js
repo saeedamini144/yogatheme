@@ -1,5 +1,5 @@
 const burger = document.getElementById("burger");
-burger.addEventListener("click",change);
+burger.addEventListener("click", change);
 function change(){
     const menuItem = document.getElementById("mainmenu");
     menuItem.classList.toggle("menu-item-show");

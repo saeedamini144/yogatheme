@@ -50,4 +50,13 @@
             </div>
         </div>
     </footer>
-</html>    
+ <!-- <script src="wp-content/themes/yogatheme/assets/javascripts/jquery-3.6.0.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/bootstrap.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/bootstrap.bundle.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/bootstrap.esm.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/splide.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/wow.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/js-yoga.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/owl.carousel.min.js"></script>
+    <script src="wp-content/themes/yogatheme/assets/javascripts/lightbox.min.js"></script>   -->
+</html>
