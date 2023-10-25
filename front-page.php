@@ -261,9 +261,9 @@
     <section class="carosel-section p-5">
         <div class="container">
             <div class="titlediv-center text-center">
-                <h6 class="title6">Our yoga trainer</h6>
+                <h6 class="title6">Our Yoga Trainer</h6>
             </div>
-            <h2 class="text-center">It’s all about the people</h2>
+            <h2 class="text-center mb-5">It’s all about the people</h2>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="card">
