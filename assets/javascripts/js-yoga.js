@@ -1,3 +1,38 @@
+// -------framwork css callback-----------
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+    })
+
+    
+// -------framwork css callback-----------
+var splide = new Splide('.splide', {
+    type: 'fade',
+    rewind: true,
+    arrows: boolean = false,
+});
+splide.mount();
+
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+})
+
+new WOW().init();
+
 const burger = document.getElementById("burger");
 burger.addEventListener("click", change);
 function change(){
@@ -18,35 +53,3 @@ window.onscroll= function scrollHead(){
         headMove.classList.remove("headers");
     }
 }
-// -------framwork css callback-----------
-var splide = new Splide('.splide', {
-    type: 'fade',
-    rewind: true,
-    arrows: boolean = false,
-});
-splide.mount();
-
-lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true
-})
-
-new WOW().init();
-// -------framwork css callback-----------
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:5,
-    nav:false,
-    dots:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-    })
