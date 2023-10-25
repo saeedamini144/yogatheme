@@ -67,4 +67,4 @@
     <script src="wp-content/themes/yogatheme/assets/javascripts/js-yoga.js"></script>
     <script src="wp-content/themes/yogatheme/assets/javascripts/owl.carousel.min.js"></script>
     <script src="wp-content/themes/yogatheme/assets/javascripts/lightbox.min.js"></script>   -->
-</html>
+    </html>
