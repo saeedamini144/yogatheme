@@ -279,7 +279,7 @@ ul{
     padding: 10px 0 0 10px;
 }
 .sectioncard{
-    background-image: url(wp-content/themes/yogatheme/assets/images/banner-img1-min.jpg);
+    background-image: url(assets/images/banner-img1-min.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -377,7 +377,7 @@ ul{
   }
   /* ---------------section carousel------------- */
   .carosel-section{
-    background-image: url(wp-content/themes/yogatheme/assets/images/banner-bg.jpg);
+    background-image: url(assets/images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
   }
@@ -437,7 +437,7 @@ ul{
   }
    /* ---------------section jumbotron------------- */
    .jumbotron{
-    background-image: url(wp-content/themes/yogatheme/assets/images/banner-bg-1-min.jpg);
+    background-image: url(assets/images/banner-bg-1-min.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -720,7 +720,7 @@ ul{
         width: 200px;
       }
       .carosel-section{
-        background-image: url(assets\images\banner-bg.jpg);
+        background-image: url(assets/images/banner-bg.jpg);
         background-repeat: repeat-y;
         background-position: bottom;
       }
@@ -741,7 +741,7 @@ ul{
 }
 /* footer */
 footer{
-    background-image: url(footer-top-bg.jpg);
+    background-image: url(assets/images/footer-top-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
