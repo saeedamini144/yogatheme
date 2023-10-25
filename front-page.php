@@ -245,12 +245,18 @@
         </div>
     </section>
     <section class="jumbotron">
-        <div class="overlay"></div>
-        <div class="text-center jumbotron-text position-relative">
+        <div class="overlay">
+            <div class="text-center jumbotron-text position-relative">
+                <h4 class="pb-4">Yoga enhances your life</h4>
+                <p>The ancient practice for better tomorrow</p>
+                <button class="btn btn-lg animate__animated animate__bounce wow">Discover Glass</button>
+            </div>
+        </div>
+        <!-- <div class="text-center jumbotron-text position-relative">
             <h4 class="pb-4">Yoga enhances your life</h4>
             <p>The ancient practice for better tomorrow</p>
             <button class="btn btn-lg animate__animated animate__bounce wow">Discover Glass</button>
-        </div>
+        </div> -->
     </section>
     <section class="carosel-section p-5">
         <div class="container">

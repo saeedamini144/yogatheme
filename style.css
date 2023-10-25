@@ -737,8 +737,16 @@ ul{
         top: 4%;
         right: -30%;
         transform: rotate(42deg);
-    }
-}
+        }
+        .jumbotron-text p{
+            color: var(--main-white-color);
+            font-size: 20px;
+           }
+        .jumbotron-text h4{
+            color: lightgray;
+            font-size: 20px;
+        }
+    }        
 /* footer */
 footer{
     background-image: url(assets/images/footer-top-bg.jpg);
@@ -763,5 +771,3 @@ footer{
 .copyright{
     padding: 15px 0 15px 0;
 }
-@media only screen and (max-width: 768px){}
-@media only screen and (max-width: 425px){}
