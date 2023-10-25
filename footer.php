@@ -41,7 +41,15 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="wp-content/themes/yogger.themezaa.com/assets/images/logo-black.png.webp" alt="">
+                        <?php
+                            if(function_exists('the_custom_logo')){
+                            // the_custom_logo( ); add dynamic logo
+                            $custom_logo_id = get_theme_mod( 'custom_logo' );
+                            $logo = wp_get_attachment_image_src( $custom_logo_id );
+                            // print_r($logo);
+                            }
+                        ?>      
+                        <img src="<?php echo $logo[0] ?>" alt="">
                     </div>
                     <div class="col-md-6">
                         <p class="text-muted">© 2020 Yogger is proudly powered by ThemeZaa</p>
