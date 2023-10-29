@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +39,17 @@
                     <span class="span2" id="span-2"></span>
                     <span class="span3" id="span-3"></span>
                 </div>
-                <ul class="menu-item" id="mainmenu">
+                <?php
+                    wp_nav_menu(
+                        array(
+                            'menu' =>'Primary' , 
+                            'container' => '' , 
+                            'theme_location' => 'Primary',
+                            'items_wrap' => '<ul id="mainmenu" class="menu-item">%3$s</ul>',
+                        )
+                    )
+                ?>
+                <!-- <ul class="menu-item" id="mainmenu">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
@@ -47,7 +57,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">ContactUs</a></li>
-                </ul>
+                </ul> -->
                 <div class="social">
                     <li class="fa fa-facebook fa-lg"></li>
                     <li class="fa fa-telegram fa-lg"></li>
