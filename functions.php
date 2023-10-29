@@ -5,6 +5,12 @@
         add_theme_support('post-thumbnails'); //call post featur image
     }
     add_action('after_setup_theme' , 'yoga_theme_support');
+
+    //dynamic menu
+    function yoga_theme_menu(){
+        register_nav_menus(array("Primary"=> "descktop menu" , "mobile" => "mobile menu"));
+    }
+    add_action('init' , 'yoga_theme_menu');
     
     function yoga_register_style(){
         $version = wp_get_theme()->get("version");
@@ -21,7 +27,6 @@
 
     function yoga_register_scripts(){
         wp_enqueue_script('jquery');
-        wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/js-yoga.js' , array('jquery') , '1.0' , false);
         wp_enqueue_script('upshotmedia-splide.min', get_template_directory_uri() . '/assets/javascripts/splide.min.js' , array('jquery') ,"1.0" , false );
         wp_enqueue_script('yogatheme-bootstrapmin' , get_template_directory_uri() . '/assets/javascripts/bootstrap.min.js'  , array('jquery') , '1.0' , false);
         // wp_enqueue_script('yogatheme-bootstrapbundle' , get_template_directory_uri() . '/assets/javascripts/bootstrap.bundle.min.js' , array('jquery') , '1.0' , false);
@@ -29,6 +34,7 @@
         wp_enqueue_script('yogatheme-lightbox' , get_template_directory_uri() . '/assets/javascripts/lightbox.min.js' , array('jquery') , '1.0' , false);
         wp_enqueue_script('yogatheme-owl' , get_template_directory_uri() . '/assets/javascripts/owl.carousel.min.js'  , array('jquery') , '1.0' , false);
         wp_enqueue_script('yogatheme-wow' , get_template_directory_uri() . '/assets/javascripts/wow.min.js' , array('jquery') , '1.0' , false);
+        wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/js-yoga.js' , array() , '1.0' , false);
     }
     add_action('wp_enqueue_scripts' , 'yoga_register_scripts');
 ?>
