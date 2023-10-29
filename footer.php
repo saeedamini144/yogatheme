@@ -52,7 +52,7 @@
                         <img src="<?php echo $logo[0] ?>" alt="">
                     </div>
                     <div class="col-md-6">
-                        <p class="text-muted">© 2020 Yogger is proudly powered by ThemeZaa</p>
+                        <p class="text-muted">© 2023 Yogga Theme is proudly powered by saaed.amini@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -67,4 +67,19 @@
     <script src="wp-content/themes/yogatheme/assets/javascripts/js-yoga.js"></script>
     <script src="wp-content/themes/yogatheme/assets/javascripts/owl.carousel.min.js"></script>
     <script src="wp-content/themes/yogatheme/assets/javascripts/lightbox.min.js"></script>   -->
-    </html>
+    <!-- <script>
+        var burger = document.getElementById("burger");
+        burger.addEventListener("click", change);
+        function change(){
+        const menuItem = document.getElementById("mainmenu");
+        menuItem.classList.toggle("menu-item-show");
+        const span1 = document.getElementById("span-1");
+        span1.classList.toggle("span1-1");
+        const span2 = document.getElementById("span-2");
+        span2.classList.toggle("span2-2");
+        const span3 = document.getElementById("span-3");
+        span3.classList.toggle("span3-3");
+        }
+
+    </script> -->
+</html>

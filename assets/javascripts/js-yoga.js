@@ -15,9 +15,9 @@ $('.owl-carousel').owlCarousel({
             items:3
         }
     }
-    })
+    });
 
-    
+
 // -------framwork css callback-----------
 var splide = new Splide('.splide', {
     type: 'fade',
@@ -29,11 +29,11 @@ splide.mount();
 lightbox.option({
   'resizeDuration': 200,
   'wrapAround': true
-})
+});
 
 new WOW().init();
 
-const burger = document.getElementById("burger");
+var burger = document.querySelector("#burger");
 burger.addEventListener("click", change);
 function change(){
     const menuItem = document.getElementById("mainmenu");
@@ -45,6 +45,7 @@ function change(){
     const span3 = document.getElementById("span-3");
     span3.classList.toggle("span3-3");
 }
+
 const headMove = document.getElementById("Holeheader");
 window.onscroll= function scrollHead(){
     if(document.body.scrollTop>80 || document.documentElement.scrollTop>80){
@@ -53,3 +54,5 @@ window.onscroll= function scrollHead(){
         headMove.classList.remove("headers");
     }
 }
+
+
