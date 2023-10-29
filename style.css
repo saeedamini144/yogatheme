@@ -48,6 +48,8 @@ ul{
 .menu-item li a{
     color: var(--main-white-color);
     transition: 0.3s;
+    margin: 0 20px 0 20px;
+
 }
 .menu-item li a:hover{
     color: lightslategray;
@@ -97,7 +99,7 @@ ul{
         text-align: center;
         border-bottom: 1px solid lightgray;
     }
-    .nav-item{
+    .menu-item li{
         padding: 0 !important;
     }
     .span1{
