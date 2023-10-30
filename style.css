@@ -18,6 +18,10 @@ Tags: yoga, athletics, calm, meditaion
     list-style-type: none;
     /* background-color: ; */
 }
+@font-face {
+    font-family: awsome;
+    src: url(assets/images/fontawesome-webfont.woff);
+}
 a{
     text-decoration: none;
 }
@@ -177,11 +181,13 @@ ul{
     color: var(--golobal-main-pink);
     transition: 0.3s;
 }
+
 .header-banner{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
+    background-image: url(assets/images/page-title-bg.jpg);
 }
 .header-title{
     color: var(--main-white-color);
