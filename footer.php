@@ -28,12 +28,12 @@
                         <li class="fa fa-camera ps-3"></li><span>PHOTO GALLERY</span>
                     </ul>
                     <div class="imggallery">
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery1.jpg" data-lightbox="img-gallery2"><img src="wp-content/themes/yogatheme/assets/images/gallery1.jpg" alt="gallery1"></a>
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery2.jpg" data-lightbox="img-gallery3"><img src="wp-content/themes/yogatheme/assets/images/gallery2.jpg" alt="gallery2"></a>
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery3.jpg" data-lightbox="img-gallery4"><img src="wp-content/themes/yogatheme/assets/images/gallery3.jpg" alt="gallery3"></a>
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery5.jpg" data-lightbox="img-gallery1"><img src="wp-content/themes/yogatheme/assets/images/gallery5.jpg" alt="gallery5"></a>
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery6.jpg" data-lightbox="img-gallery5"><img src="wp-content/themes/yogatheme/assets/images/gallery6.jpg" alt="gallery5"></a>
-                        <a href="wp-content/themes/yogatheme/assets/images/gallery7.jpg" data-lightbox="img-gallery6"><img src="wp-content/themes/yogatheme/assets/images/gallery7.jpg" alt="gallery7"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery1.jpg" data-lightbox="img-gallery2"><img src="/wordpress/wp-content/uploads/2023/10/gallery1.jpg" alt="gallery1"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery2.jpg" data-lightbox="img-gallery3"><img src="/wordpress/wp-content/uploads/2023/10/gallery2.jpg" alt="gallery2"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery3.jpg" data-lightbox="img-gallery4"><img src="/wordpress/wp-content/uploads/2023/10/gallery3.jpg" alt="gallery3"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery5.jpg" data-lightbox="img-gallery1"><img src="/wordpress/wp-content/uploads/2023/10/gallery5.jpg" alt="gallery5"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery6.jpg" data-lightbox="img-gallery5"><img src="/wordpress/wp-content/uploads/2023/10/gallery6.jpg" alt="gallery5"></a>
+                        <a href="/wordpress/wp-content/uploads/2023/10/gallery7.jpg" data-lightbox="img-gallery6"><img src="/wordpress/wp-content/uploads/2023/10/gallery7.jpg" alt="gallery7"></a>
                     </div>
                 </div>
             </div>
@@ -80,6 +80,22 @@
         const span3 = document.getElementById("span-3");
         span3.classList.toggle("span3-3");
         }
-
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+    });
     </script> -->
 </html>
