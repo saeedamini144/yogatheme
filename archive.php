@@ -21,6 +21,9 @@ get_header();
             ?>
         </div>
     </div>
+    <?php
+      the_posts_pagination();
+    ?>
 </section>
 
 <?php

@@ -7,20 +7,26 @@ get_header();
         <!-- <p><?php the_time('F j, Y'); ?></p> -->
     </div>
 </section>
-<section class="container mt-5 textsection">
-    <div class="row">
-        <?php
-        if (have_posts()) {
-            while (have_posts()) {
-                the_post();
-                // the_content(  );
-                get_template_part('template-part/content', 'archive');
+<section class="bg-light p-5">
+    <div class="container mt-5 textsection ">
+        <div class="row">
+            <?php
+            if (have_posts()) {
+                while (have_posts()) {
+                    the_post();
+                    // the_content();
+                    get_template_part('template-part/content', 'archive');
+                }
             }
-        }
-        ?>
+            ?>
+        </div>
     </div>
-<section>
+    <?php
+      the_posts_pagination();
+    ?>
+</section>
+
 <?php
     get_footer();
 ?>
-        
+    
