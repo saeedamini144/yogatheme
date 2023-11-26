@@ -18,10 +18,10 @@ Tags: yoga, athletics, calm, meditaion
     list-style-type: none;
     /* background-color: ; */
 }
-@font-face {
+/* @font-face {
     font-family: awsome;
     src: url(assets/images/fontawesome-webfont.woff);
-}
+} */
 a{
     text-decoration: none;
 }
@@ -33,13 +33,6 @@ ul{
     background-color: var(--global-black);
     transition: 0.3s;
 }
-/* @font-face {
-    font-family: fontawsome;
-    src: url(fontawesome-webfont.woff);
-} */
-/* #header{
-    background-color: bisque;
-} */
 #Holeheader{
     position: fixed;
     z-index: 20;
@@ -154,7 +147,7 @@ ul{
     color: var(--golobal-main-pink);
 }
 .headers{
-    background-color: black;
+    background-color:var(--global-black);
     transition: 0.3s;
 }
 .titlediv{
@@ -220,10 +213,10 @@ ul{
     margin: 0 !important;
     padding: 0 !important;
 }
-/* .headers{
-    background-color: black;
+.headers{
+    background-color: var(--global-black);
     transition: 0.3s;
-} */
+}
 /* @font-face {
     font-family: fontawsome;
     src: url(fontawesome-webfont.woff);
@@ -778,4 +771,4 @@ footer{
 }
 .copyright{
     padding: 15px 0 15px 0;
-}
+}    

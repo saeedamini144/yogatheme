@@ -22,55 +22,46 @@
 </head>
 <body>
     <header id="header">
-            <div class="navbar container-fluid" id="Holeheader">
-                <div class="navbar-brand">
-                <?php
-                    if(function_exists('the_custom_logo')){
-                    // the_custom_logo( ); add dynamic logo
-                    $custom_logo_id = get_theme_mod( 'custom_logo' );
-                    $logo = wp_get_attachment_image_src( $custom_logo_id );
-                    // print_r($logo);
-                    }
-                ?>      
-                    <a href="#"><img src="<?php echo $logo[0] ?>" id="logomenu" alt=""></a>
-                </div>
-                <div class="burgermenu d-lg-none" id="burger">
-                    <span class="span1" id="span-1"></span>
-                    <span class="span2" id="span-2"></span>
-                    <span class="span3" id="span-3"></span>
-                </div>
-                <?php
-                    wp_nav_menu(
-                        array(
-                            'menu' =>'Primary' , 
-                            'container' => '' , 
-                            'theme_location' => 'Primary',
-                            'items_wrap' => '<ul id="mainmenu" class="menu-item">%3$s</ul>',
+                <div class="navbar container-fluid" id="Holeheader">
+                    <div class="navbar-brand">
+                    <?php
+                        if(function_exists('the_custom_logo')){
+                        // the_custom_logo( ); add dynamic logo
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $logo = wp_get_attachment_image_src( $custom_logo_id );
+                        // print_r($logo);
+                        }
+                    ?>      
+                        <a href="#"><img src="<?php echo $logo[0] ?>" id="logomenu" alt=""></a>
+                    </div>
+                    <div class="burgermenu d-lg-none" id="burger">
+                        <span class="span1" id="span-1"></span>
+                        <span class="span2" id="span-2"></span>
+                        <span class="span3" id="span-3"></span>
+                    </div>
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                'menu' =>'Primary' , 
+                                'container' => '' , 
+                                'theme_location' => 'Primary',
+                                'items_wrap' => '<ul id="mainmenu" class="menu-item">%3$s</ul>',
+                            )
                         )
-                    )
-                ?>
-                <!-- <ul class="menu-item" id="mainmenu">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Trainer</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">ContactUs</a></li>
-                </ul> -->
-                <div class="social">
-                    <li class="fa fa-facebook fa-lg"></li>
-                    <li class="fa fa-telegram fa-lg"></li>
-                    <li class="fa fa-instagram fa-lg"></li>
+                    ?>
+                    <div class="social">
+                        <li class="fa fa-facebook fa-lg"></li>
+                        <li class="fa fa-telegram fa-lg"></li>
+                        <li class="fa fa-instagram fa-lg"></li>
+                    </div>
                 </div>
-            </div>
-            <!-- <div class="splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide "><img src="wp-content/themes/yogatheme/assets/images/slide-01-min.jpg" alt=""></li>
-                        <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-03-min.jpg" alt=""></li>
-                        <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-04-min.jpg" alt=""></li>
-                    </ul>
-                </div>
-            </div> -->
-    </header>
+                <!-- <div class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide "><img src="wp-content/themes/yogatheme/assets/images/slide-01-min.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-03-min.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-04-min.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div> -->
+        </header>

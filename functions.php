@@ -15,8 +15,7 @@
     function yoga_register_style(){
         $version = wp_get_theme()->get("version");
         wp_enqueue_style('yogatheme-style', get_template_directory_uri() . '/style.css', array('yogatheme-bootstrap'), $version , 'all');
-        wp_enqueue_style('yogatheme-fontawsome', get_template_directory_uri() . '/assets/css/font-awesome.css' , array() , "1.0" , "all");
-        // wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css' );
+        wp_enqueue_style('yogatheme-fontawsome', get_template_directory_uri() . '/assets/css/fontawesome.min.css' , array() , "1.0" , "all");
         wp_enqueue_style('yogatheme-bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.rtl.min.css' ,  array() , '5.0', 'all');
         wp_enqueue_style('yogatheme-owl', get_template_directory_uri() . '/assets/css/owl.carousel.min.css', array() , '1.0', 'all');
         wp_enqueue_style('yogatheme-animate', get_template_directory_uri() . '/assets/css/animate.min.css', array() ,'1.0', 'all');
@@ -29,8 +28,7 @@
 
     function yoga_register_scripts(){
         wp_enqueue_script('jquery');
-        wp_register_script('yogatheme-splide.min', get_template_directory_uri() . '/assets/javascripts/splide.min.js' , array('jquery') ,"1.0" , false );
-        wp_enqueue_script('yogatheme-splide.min');
+        wp_enqueue_script('yogatheme-splide.min', get_template_directory_uri() . '/assets/javascripts/splide.min.js' , array('jquery') ,"1.0" , false );
         // wp_enqueue_script('yogatheme-all.min', get_template_directory_uri() . '/assets/javascripts/all.min.js' , array('jquery') ,"1.0" , false );
         wp_enqueue_script('yogatheme-bootstrapmin' , get_template_directory_uri() . '/assets/javascripts/bootstrap.min.js'  , array('jquery') , '1.0' , false);
         // wp_enqueue_script('yogatheme-bootstrapbundle' , get_template_directory_uri() . '/assets/javascripts/bootstrap.bundle.min.js' , array('jquery') , '1.0' , false);
@@ -38,8 +36,7 @@
         wp_enqueue_script('yogatheme-lightbox' , get_template_directory_uri() . '/assets/javascripts/lightbox.min.js' , array('jquery') , '1.0' , false);
         wp_enqueue_script('yogatheme-owl' , get_template_directory_uri() . '/assets/javascripts/owl.carousel.min.js'  , array('jquery') , '1.0' , false);
         wp_enqueue_script('yogatheme-wow' , get_template_directory_uri() . '/assets/javascripts/wow.min.js' , array('jquery') , '1.0' , false);
-        wp_register_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/js-yoga.js' , array('jquery','yogatheme-splide.min','yogatheme-owl') , '1.0' , false);
-        wp_enqueue_script('yogatheme-yoga' );
+        wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/yoga.js' , array('jquery') , '1.0' , false);
     }
     add_action('wp_enqueue_scripts' , 'yoga_register_scripts');
 ?>
