@@ -6,12 +6,6 @@
     }
     add_action('after_setup_theme' , 'yoga_theme_support');
 
-    //dynamic menu
-    function yoga_theme_menu(){
-        register_nav_menus(array("Primary"=> "descktop menu" , "mobile" => "mobile menu"));
-    }
-    add_action('init' , 'yoga_theme_menu');
-    
     function yoga_register_style(){
         $version = wp_get_theme()->get("version");
         wp_enqueue_style('yogatheme-style', get_template_directory_uri() . '/style.css', array('yogatheme-bootstrap'), $version , 'all');
@@ -39,4 +33,53 @@
         wp_enqueue_script('yogatheme-yoga' , get_template_directory_uri() . '/assets/javascripts/yoga.js' , '' , '1.0' , false);
     }
     add_action('wp_enqueue_scripts' , 'yoga_register_scripts');
+
+
+
+
+
+    class Primary_Menu_Walker extends Walker_Nav_Menu {
+        function start_el(&$output, $item, $depth=0, $args=[], $id=0) {
+            $output .= "<li class='" .  implode(" ", $item->classes) . "'>";
+     
+            if ($item->url && $item->url != '#') {
+    
+                $attributes  = ! empty( $item->url ) ? ' href="' . esc_attr( $item->url ) . '"' : '';
+                $attributes .= ! empty( $item->attr_title ) ? 'title="'. esc_attr( $item->attr_title ) .'"' : 'title="'. esc_attr( $item->title ) .'"' ;
+                $attributes .= ! empty( $item->target ) ? ' target="' . esc_attr( $item->target ) . '"' : '';
+                $attributes .= ! empty( $item->xfn ) ? ' rel="' . esc_attr( $item->xfn ) . '"' : '';
+    
+                $output .= '<a '.$attributes.' class="nav-link" >';
+    
+            } else {
+                $output .= '<span class="nav-link" >';
+            }
+     
+            $output .= $item->title;
+    
+            if ($args->walker->has_children) {
+                $output .= '';
+            } 
+    
+            if ($item->url && $item->url != '#') {
+                $output .= '</a>';
+            } else {
+                $output .= '</span>';
+            }
+     
+        }
+    }	
+
+    //dynamic menu
+    function yoga_theme_menu(){
+        register_nav_menus([
+            "Primary"=> "descktop menu" ,
+            "mobile" => "mobile menu"
+        ]);
+    }
+    add_action('init' , 'yoga_theme_menu');
+
+
+
+
 ?>
