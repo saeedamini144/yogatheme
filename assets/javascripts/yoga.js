@@ -3,7 +3,7 @@ let $ = jQuery.noConflict();
 // -------framwork css callback-----------
 const headMove = document.getElementById("Holeheader");
 
-window.onscroll= function scrollHead(){
+window.onscroll = function scrollHead(){
 
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
 
@@ -47,52 +47,12 @@ function scrollFunction(){
 
 // -------framwork css callback-----------
 
-var splide1 = new Splide('.splide3', {
-    type: 'fade',
-    rewind: true,
-    arrows: boolean = false,
-});
-splide1.mount();
-
-var splide2 = new Splide( '.splide', {
-    type   : 'loop',
-    perPage: 5,
-    focus  : 'center',
-    height   : '10rem',
-    autoScroll: {
-        speed: 2,
-    },
-    breakpoints: {
-        640: {
-            perPage: 2,
-            gap    : '.7rem',
-            height : '6rem',
-            focus  : 'center',
-            height   : '10rem',
-        },
-        480: {
-            perPage: 1,
-            // gap    : '.7rem',
-            height : '6rem',
-            focus  : 'center',
-            height   : '10rem',
-        },
-},
-} );
-splide2.mount();
-
-
-
-
-
-lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
-});
-  
-new WOW().init();
-
-
+// var splide1 = new Splide('.splide3', {
+//     type: 'fade',
+//     rewind: true,
+//     arrows: boolean = false,
+// });
+// splide1.mount();
 
 
 // jQuery Code Area
@@ -117,5 +77,38 @@ $(document).ready(function(){
         }
     });
 
+    var splide2 = new Splide( '.splide', {
+        type        : 'loop',
+        perPage     : 5,
+        focus       : 'center',
+        height      : '10rem',
+        autoScroll  : {
+            speed: 2,
+        },
+        breakpoints : {
+            640: {
+                perPage: 2,
+                gap    : '.7rem',
+                height : '6rem',
+                focus  : 'center',
+                height   : '10rem',
+            },
+            480: {
+                perPage: 1,
+                //gap    : '.7rem',
+                height : '6rem',
+                focus  : 'center',
+                height   : '10rem',
+            },
+    },
+    } );
+    splide2.mount();    
+
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+      
+    new WOW().init();
 
 });
