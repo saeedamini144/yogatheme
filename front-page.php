@@ -5,13 +5,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="http://localhost/wordpress/wp-content/themes/yogatheme/assets/images/slide-01-min.jpg" class="d-block w-100" alt="...">
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="http://localhost/wordpress/wp-content/themes/yogatheme/assets/images/slide-03-min.jpg" class="d-block w-100" alt="...">
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/slide-03-min.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="http://localhost/wordpress/wp-content/themes/yogatheme/assets/images/slide-04-min.jpg" class="d-block w-100" alt="...">
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/slide-04-min.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

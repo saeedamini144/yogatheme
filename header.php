@@ -55,13 +55,13 @@
                         <li class="fa fa-instagram fa-lg"></li>
                     </div>
                 </div>
-                <!-- <div class="splide">
+                <div class="splide">
                     <div class="splide__track">
                         <ul class="splide__list">
-                            <li class="splide__slide "><img src="wp-content/themes/yogatheme/assets/images/slide-01-min.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-03-min.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-04-min.jpg" alt=""></li>
+                            <li class="splide__slide "><img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery1.jpg" alt=""></li>
+                            <li class="splide__slide"><img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery2.jpg" alt=""></li>
+                            <li class="splide__slide"><img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery3.jpg" alt=""></li>
                         </ul>
                     </div>
-                </div> -->
+                </div>
         </header>
