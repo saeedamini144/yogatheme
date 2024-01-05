@@ -61,7 +61,7 @@ ul{
     color: var(--main-white-color);
 }
 .splide__slide{
-    height: 1000px;
+    height: 100vh;
 }
 @media only screen and (max-width: 768px){
     .burgermenu{
@@ -250,7 +250,7 @@ ul{
     color: var(--main-white-color);
 }
 .splide__slide{
-    height: 1000px;
+    height: 100vh;
 }
 /* .ttbackground{
     background-image: url("slide-01-min.jpg");
@@ -560,9 +560,9 @@ ul{
     }
 @media only screen and (max-width: 425px)  {
     .splide__slide img{
-        position: absolute;
-        left: -321px;
-        object-fit: cover;
+        position: absolute !important;
+        left: -321px !important;
+        object-fit: cover !important;
     } 
     .textsection{
         text-align: center;
