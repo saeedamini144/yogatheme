@@ -22,46 +22,60 @@
 </head>
 <body>
     <header id="header">
-                <div class="navbar container-fluid" id="Holeheader">
-                    <div class="navbar-brand">
-                    <?php
-                        if(function_exists('the_custom_logo')){
-                        // the_custom_logo( ); add dynamic logo
-                        $custom_logo_id = get_theme_mod( 'custom_logo' );
-                        $logo = wp_get_attachment_image_src( $custom_logo_id );
-                        // print_r($logo);
-                        }
-                    ?>      
-                        <a href="#"><img src="<?php echo $logo[0] ?>" id="logomenu" alt=""></a>
-                    </div>
-                    <div class="burgermenu d-lg-none" id="burger">
-                        <span class="span1" id="span-1"></span>
-                        <span class="span2" id="span-2"></span>
-                        <span class="span3" id="span-3"></span>
-                    </div>
-                    <?php
-                        wp_nav_menu(
-                            array(
-                                'menu' =>'Primary' , 
-                                'container' => '' , 
-                                'theme_location' => 'Primary',
-                                'items_wrap' => '<ul id="mainmenu" class="menu-item">%3$s</ul>',
-                            )
-                        )
-                    ?>
-                    <div class="social">
-                        <li class="fa fa-facebook fa-lg"></li>
-                        <li class="fa fa-telegram fa-lg"></li>
-                        <li class="fa fa-instagram fa-lg"></li>
-                    </div>
-                </div>
-                <!-- <div class="splide">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide "><img src="wp-content/themes/yogatheme/assets/images/slide-01-min.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-03-min.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="wp-content/themes/yogatheme/assets/images/slide-04-min.jpg" alt=""></li>
-                        </ul>
-                    </div>
-                </div> -->
-        </header>
+        <div class="navbar container-fluid" id="Holeheader">
+            <div class="navbar-brand">
+            <?php
+                if(function_exists('the_custom_logo')){
+                // the_custom_logo( ); add dynamic logo
+                $custom_logo_id = get_theme_mod( 'custom_logo' );
+                $logo = wp_get_attachment_image_src( $custom_logo_id );
+                // print_r($logo);
+                }
+            ?>      
+                <a href="#"><img src="<?php echo $logo[0] ?>" id="logomenu" alt=""></a>
+            </div>
+            <div class="burgermenu d-lg-none" id="burger">
+                <span class="span1" id="span-1"></span>
+                <span class="span2" id="span-2"></span>
+                <span class="span3" id="span-3"></span>
+            </div>   
+            <?php 					 
+                wp_nav_menu( 
+                    array( 
+                        'menu'                  => 'Primary', 
+                        'theme_location'		=> 'Primary',
+                        'menu_class'			=> 'menu-item',
+                        'menu_id' 				=> 'mainmenu',
+                        'container' 			=> '',
+                        'container_class' 		=> '',
+                        'container_aria_label'	=> '',
+                        'walker' 				=> new Primary_Menu_Walker(),
+                        'depth'					=> 1,
+                        'show_carets' 			=> true,
+                        'item_spacing' 			=> 'discard'
+                    ) 
+                ); 
+            ?>                                     
+            <div class="social">
+                <li class="fa fa-facebook fa-lg"></li>
+                <li class="fa fa-telegram fa-lg"></li>
+                <li class="fa fa-instagram fa-lg"></li>
+            </div>
+        </div>
+    </header>
+
+    <div class="splide" aria-label="Splide Basic HTML Example" >
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery1.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery2.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
