@@ -68,13 +68,13 @@
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
-                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery1.jpg" alt="">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" alt="">
                 </li>
                 <li class="splide__slide">
-                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery2.jpg" alt="">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-03-min.jpg" alt="">
                 </li>
                 <li class="splide__slide">
-                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/gallery3.jpg" alt="">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-04-min.jpg" alt="">
                 </li>
             </ul>
         </div>
