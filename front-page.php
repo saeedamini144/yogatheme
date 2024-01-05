@@ -2,7 +2,22 @@
     get_header();
 ?>
 <section>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<!-- <div class="splide" aria-label="Splide Basic HTML Example" >
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-03-min.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-04-min.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" class="d-block w-100" alt="...">
@@ -22,7 +37,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-    </div> 
+    </div>  -->
 </section>
     <section class="container mt-5 textsection">
         <div class="row">
@@ -39,7 +54,7 @@
             </div>
             <div class="col-md-6">
                 <div class="sectionimg">
-                    <img src="wp-content/themes/yogatheme/assets/images/maker.jpg" alt="">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/maker.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -48,25 +63,25 @@
         <div class="row iconsec">
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogatheme/assets/images/balance.PNG" alt="">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/balance.PNG" alt="">
                     <p class="iconp">BALANCE LIFE</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogatheme/assets/images/strech.PNG" alt="">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/strech.PNG" alt="">
                     <p class="iconp">STRETCH MIND</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogatheme/assets/images/reduse.png" alt="">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/reduse.png" alt="">
                     <p class="iconp">REDUCE STRESS</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="d-flex iconit">
-                    <img src="wp-content/themes/yogatheme/assets/images/meditation.PNG" alt="">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/meditation.PNG" alt="">
                     <p class="iconp">MEDITATIONS</p>
                 </div>
             </div>
@@ -82,7 +97,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogatheme/assets/images/flip-img1-min.jpg" alt="">
+                            <img src="<?php bloginfo('template_url')?>/assets/images/flip-img1-min.jpg" alt="">
                             <h3 class="front-title">meditaion yoga</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -99,7 +114,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogatheme/assets/images/flip-img2-min.jpg" alt="">
+                            <img src="<?php bloginfo('template_url')?>/assets/images/flip-img2-min.jpg" alt="">
                             <h3 class="front-title">Stretching yoga</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -116,7 +131,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="wp-content/themes/yogatheme/assets/images/flip-img3-1-min.jpg" alt="">
+                            <img src="<?php bloginfo('template_url')?>/assets/images/flip-img3-1-min.jpg" alt="">
                             <h3 class="front-title">body balance</h3>
                         </div>
                         <div class="flip-card-back d-flex align-content-center">
@@ -137,7 +152,7 @@
             <div class="row align-items-center">
                 <div class="col-md-4 col-lg-4">
                     <div class="img-f">
-                        <img src="wp-content/themes/yogatheme/assets/images/nilu-flower.jpg" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/nilu-flower.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
@@ -159,7 +174,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="divimg">
-                        <img src="wp-content/themes/yogatheme/assets/images/banner-video.jpg" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/banner-video.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -197,7 +212,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic1.jpg" alt="">
+                                    <img src="<?php bloginfo('template_url')?>/assets/images/testimoni-pic1.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Jay Benjamin</h4>
@@ -214,7 +229,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic2.jpg" alt="">
+                                    <img src="<?php bloginfo('template_url')?>/assets/images/testimoni-pic2.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Jason Bourne</h4>
@@ -231,7 +246,7 @@
                             <span class="arrow"></span>
                             <div class="cardi-info d-flex">
                                 <div class="cardi-img">
-                                    <img src="wp-content/themes/yogatheme/assets/images/testimoni-pic3.jpg" alt="">
+                                    <img src="<?php bloginfo('template_url')?>/assets/images/testimoni-pic3.jpg" alt="">
                                 </div>
                                 <div class="cardi-info-data">
                                     <h4>Janet Scalf</h4>
@@ -267,7 +282,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="wp-content/themes/yogatheme/assets/images/team1.png" class="cart-img" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/team1.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">LAURA CHARETTE</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -281,7 +296,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="wp-content/themes/yogatheme/assets/images/team2.png" class="cart-img" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/team2.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">VETTE LONGORIA</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -295,7 +310,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="wp-content/themes/yogatheme/assets/images/team3.png" class="cart-img" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/team3.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">JESSICA DOVER</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
@@ -309,7 +324,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="wp-content/themes/yogatheme/assets/images/team4.png" class="cart-img" alt="">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/team4.png" class="cart-img" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-3">MICHAL RUHEEN</h5>
                             <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipiscing</p>
