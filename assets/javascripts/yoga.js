@@ -79,7 +79,7 @@ $(document).ready(function(){
 
     var splide2 = new Splide( '.splide', {
         type        : 'loop',
-        perPage     : 5,
+        perPage     : 1,
         focus       : 'center',
         height      : '10rem',
         autoScroll  : {
@@ -87,7 +87,7 @@ $(document).ready(function(){
         },
         breakpoints : {
             640: {
-                perPage: 2,
+                perPage: 1,
                 gap    : '.7rem',
                 height : '6rem',
                 focus  : 'center',
