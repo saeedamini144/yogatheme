@@ -1,19 +1,23 @@
 let $ = jQuery.noConflict();
 
 // -------framwork css callback-----------
-const headMove = document.getElementById("Holeheader");
+// const headMove = document.getElementById("Holeheader");
 
-window.onscroll = function scrollHead(){
+// window.onscroll = function scrollHead(){
 
-    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+//     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
 
-        headMove.classList.add("headers");
+//         headMove.classList.add("headers");
 
-    }else{
+//     }else{
 
-        headMove.classList.remove("headers");
+//         headMove.classList.remove("headers");
 
-    }
+//     }
+// }
+
+window.onscroll = function(){
+    scrollFunction();
 }
 
 function scrollFunction(){
