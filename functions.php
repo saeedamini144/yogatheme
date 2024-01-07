@@ -44,7 +44,7 @@
      
             if ($item->url && $item->url != '#') {
     
-                $attributes  = ! empty( $item->url ) ? ' href="' . esc_attr( $item->url ) . '"' : '';
+                $attributes  = ! empty( $item->url ) ? ' href="' . esc_attr( $item->url ) . '"' : '#';
                 $attributes .= ! empty( $item->attr_title ) ? 'title="'. esc_attr( $item->attr_title ) .'"' : 'title="'. esc_attr( $item->title ) .'"' ;
                 $attributes .= ! empty( $item->target ) ? ' target="' . esc_attr( $item->target ) . '"' : '';
                 $attributes .= ! empty( $item->xfn ) ? ' rel="' . esc_attr( $item->xfn ) . '"' : '';
@@ -52,7 +52,7 @@
                 $output .= '<a '.$attributes.' class="nav-link" >';
     
             } else {
-                $output .= '<span class="nav-link" >';
+                $output .= '<a href="#" title="menu-item" class="nav-link" >';
             }
      
             $output .= $item->title;
@@ -64,7 +64,7 @@
             if ($item->url && $item->url != '#') {
                 $output .= '</a>';
             } else {
-                $output .= '</span>';
+                $output .= '</a>';
             }
      
         }
