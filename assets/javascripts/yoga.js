@@ -51,12 +51,12 @@ function scrollFunction(){
 
 // -------framwork css callback-----------
 
-// var splide1 = new Splide('.splide3', {
-//     type: 'fade',
-//     rewind: true,
-//     arrows: boolean = false,
-// });
-// splide1.mount();
+var splide = new Splide('.splide', {
+    type: 'fade',
+    rewind: true,
+    arrows: boolean = false,
+});
+splide.mount();
 
 
 // jQuery Code Area
@@ -81,32 +81,32 @@ $(document).ready(function(){
         }
     });
 
-    var splide2 = new Splide( '.splide', {
-        type        : 'loop',
-        perPage     : 1,
-        focus       : 'center',
-        height      : '10rem',
-        autoScroll  : {
-            speed: 2,
-        },
-        breakpoints : {
-            640: {
-                perPage: 1,
-                gap    : '.7rem',
-                height : '6rem',
-                focus  : 'center',
-                height   : '10rem',
-            },
-            480: {
-                perPage: 1,
-                //gap    : '.7rem',
-                height : '6rem',
-                focus  : 'center',
-                height   : '10rem',
-            },
-    },
-    } );
-    splide2.mount();    
+    // var splide2 = new Splide( '.splide', {
+    //     type        : 'loop',
+    //     perPage     : 1,
+    //     focus       : 'center',
+    //     height      : '10rem',
+    //     autoScroll  : {
+    //         speed: 2,
+    //     },
+    //     breakpoints : {
+    //         640: {
+    //             perPage: 1,
+    //             gap    : '.7rem',
+    //             height : '6rem',
+    //             focus  : 'center',
+    //             height   : '10rem',
+    //         },
+    //         480: {
+    //             perPage: 1,
+    //             //gap    : '.7rem',
+    //             height : '6rem',
+    //             focus  : 'center',
+    //             height   : '10rem',
+    //         },
+    // },
+    // } );
+    // splide2.mount();    
 
     lightbox.option({
         'resizeDuration': 200,
