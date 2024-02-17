@@ -64,7 +64,7 @@
         </div>
     </header>
 
-    <div class="splide" aria-label="Splide Basic HTML Example" >
+<!--     <div class="splide" aria-label="Splide Basic HTML Example" >
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
@@ -78,4 +78,4 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
