@@ -2,21 +2,21 @@
     get_header();
 ?>
 <section>
-<!-- <div class="splide" aria-label="Splide Basic HTML Example" >
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="splide__slide">
-                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" alt="">
-                </li>
-                <li class="splide__slide">
+  <div class="splide" aria-label="Splide Basic HTML Example" >
+         <div class="splide__track">
+             <ul class="splide__list">
+                 <li class="splide__slide">
+                     <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-01-min.jpg" alt="">
+                 </li>
+                 <li class="splide__slide">
                     <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-03-min.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-04-min.jpg" alt="">
-                </li>
-            </ul>
+                 </li>
+                 <li class="splide__slide">
+                     <img src= "<?php bloginfo('template_url'); ?>/assets/images/slide-04-min.jpg" alt="">
+                 </li>
+             </ul>
         </div>
-    </div> -->
+     </div> 
     <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
     <div class="carousel-item active">
