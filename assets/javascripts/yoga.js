@@ -51,12 +51,12 @@ function scrollFunction(){
 
 // -------framwork css callback-----------
 
-var splide = new Splide('.splide', {
-    type: 'fade',
-    rewind: true,
-    arrows: boolean = false,
+var Splide = new Splide(".splide", {
+  type: "fade",
+  rewind: true,
+  arrows: (boolean = false),
 });
-splide.mount();
+Splide.mount();
 
 
 // jQuery Code Area
