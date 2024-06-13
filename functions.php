@@ -1,23 +1,4 @@
 <?php
-
-
-if(!function_exists("mix")):
-    require_once(get_template_directory() . '/helper/mix.php');
-endif;
-
-function yoga_front_scripts() {
-
-    $app_style_front           =  get_template_directory_uri() . mix_any( "/dist/css/app.css"          , get_template_directory());
-    $app_script_front          =  get_template_directory_uri() . mix_any( "/dist/js/app.js"            , get_template_directory());
-
-    wp_enqueue_style( 'app-yoga-style', $app_style_front , [] , null );
-    wp_enqueue_script( 'app-yoga'  , $app_script_front, ['jquery'] , null , [ 'in_footer' => true , 'strategy' => 'defer' ] );
-
-}
-add_action( 'wp_enqueue_scripts', 'yoga_front_scripts' );
-
-
-
     function yoga_theme_support(){
         add_theme_support('title-tag');//dynamice title
         add_theme_support( 'custom-logo' );//daynamice logo
